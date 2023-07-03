@@ -1,0 +1,284 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #141414;
+}
+
+body {
+  background-color: #141414;
+}
+
+:root {
+    --e-global-color-primary: #141414;
+    --e-global-color-secondary: #F0EDE6;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #0F0F0F;
+    --e-global-color-9314a05: #F0EDE6;
+    --e-global-typography-primary-font-family: "Almarai";
+    --e-global-typography-primary-font-size: 65px;
+    --e-global-typography-primary-font-weight: 400;
+    --e-global-typography-primary-text-transform: uppercase;
+    --e-global-typography-primary-font-style: normal;
+    --e-global-typography-cef10f5-font-family: "Antic Didone";
+}
+
+/* WRAPPER */
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+  border: 2px solid  #0F0F0F;
+}
+
+/* SECTION 1 HOME */
+
+.section1_slider {
+  margin: 0 auto;
+  padding: 0 3%;
+  min-height: 800px;
+  background-image: url("../photos/Design-Anthology-2022-04+Light+_+Dark+apartment\,+Tainan+-+Degree+Design-Degree_Design_BBBLACK-006.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ height: 95px;
+ align-items: center;
+}
+
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+
+}
+
+
+header h2 {
+  color: #F0EDE6;
+  font-family: "Almarai", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+
+
+ul li a {
+  font-family: "Almarai";
+  font-size: 0.875rem;
+  color: #7A7A7A;
+  letter-spacing: 1px;
+  transition: .8s;
+}
+
+ul li a:hover{
+  color: #F0EDE6;
+}
+.active {
+  color: #F0EDE6;
+}
+
+.section1_company_about {
+  width: 75%;
+  margin-inline: auto;
+  margin-top: 13em;
+  /* border: 2px solid red; */
+}
+
+.section1_company_about h1 {
+  font-size: 4.06rem;
+  font-family: "Almarai", sans-serif;
+  line-height: 1.3;
+  color: #F0EDE6;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.span_h1 {
+  font-family: "Antic Didone";
+}
+
+.button_get_started {
+  background-color: inherit;
+  color: #F0EDE6;
+  letter-spacing: 1px;
+  border: 1px solid #F0EDE6;
+  border-radius: 1.5rem;
+  padding: .8rem 2.5rem;
+  display: block;
+  margin-inline: auto;
+  transition: .8s;
+  
+}
+
+.button_get_started:hover {
+  color: #141414;
+  background-color: #F0EDE6;
+  cursor: pointer;
+}
+
+
+/* SECTION 2 */
+.section2_home {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+  background-color: #F0EDE6;
+}
+
+.photo_box1 {
+  width: 25%;
+  height: 260px;
+}
+
+.room_photo1 {
+  width: 100%;
+  height: auto;
+  filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    transition-duration: 0.4s;
+}
+
+.room_photo1:hover {
+  filter: none;
+}
+
+.section2_home_title {
+  /* border: 2px solid red; */
+  width: 70%;
+  padding-inline: 2%;
+}
+
+.section2_home_title p {
+  font-family: "Almarai", sans-serif;
+  color: #7A7A7A;
+  margin: 2em 0 3em;
+  text-align: center;
+
+}
+
+.section2_home_title h2 {
+  font-size: 2.81rem;
+  font-family: "Alarmai", sans-serif;
+  margin-bottom: 0.5em;
+
+}
+
+.span_every_lifestyle {
+  font-size: 2.81rem;
+  font-family: "Antic Didone", sans-serif;
+  letter-spacing: 1px;
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.second_photo2 {
+  margin-top: 14em;
+}
+
+.button_learn_more {
+  background-color: inherit;
+  color:#0F0F0F;
+  letter-spacing: 1px;
+  border: 1px solid #0F0F0F;
+  border-radius: 1.5rem;
+  padding: .8rem 2.5rem;
+  display: block;
+  margin-inline: auto;
+  transition: .8s;
+}
+
+.button_learn_more:hover {
+  color: #F0EDE6;
+  background-color: #0F0F0F;
+  cursor: pointer;
+
+}
+
+/* ARTICLE 1 */
+.home_articles {
+  margin: 0 auto;
+  padding: 10% 3%;
+  background-color:#F0EDE6;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3em;
+}
+
+.home_articles h2{
+  width: 50%;
+  font-family: "Alarmai", sans-serif;
+  font-size: 2.81rem;
+  line-height: 1.3;
+}
+
+.span_defines_who_we_are {
+  font-family: "Antic Didone", sans-serif;
+}
+
+.article_section1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #141415;
+  padding-bottom: 3%;
+}
+
+.article_photo_box {
+  width: 45%;
+  height: 350px;
+}
+
+.article_photo1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article_description_box {
+  width: 49%;
+  /* border: 2px solid red; */
+  
+}
+
+.article_description_box_child {
+  display: flex;
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.architectural_design_heading {
+  font-size: 1.5rem;
+  font-family: "Alarmai", sans-serif;
+}
+
+.article_description_box p {
+  padding-inline: 9%;
+  color: #7A7A7A;
+  line-height: 1.3;
+  margin-bottom: 12em;
+}
+
+.button_read_more {
+  background-color: inherit;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color:#0F0F0F;
+  border: 1px solid #0F0F0F;
+  border-radius: 1.5rem;
+  padding: 1rem 2.3rem;
+  transition: .8s;
+}
+
+.button_read_more:hover {
+  color: #F0EDE6;
+  background-color: #0F0F0F;
+  cursor: pointer;
+
+}
