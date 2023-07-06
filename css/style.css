@@ -8,27 +8,26 @@ body {
 }
 
 :root {
-    --e-global-color-primary: #141414;
-    --e-global-color-secondary: #F0EDE6;
-    --e-global-color-text: #7A7A7A;
-    --e-global-color-accent: #0F0F0F;
-    --e-global-color-9314a05: #F0EDE6;
-    --e-global-typography-primary-font-family: "Almarai";
-    --e-global-typography-primary-font-size: 65px;
-    --e-global-typography-primary-font-weight: 400;
-    --e-global-typography-primary-text-transform: uppercase;
-    --e-global-typography-primary-font-style: normal;
-    --e-global-typography-cef10f5-font-family: "Antic Didone";
+  --e-global-color-primary: #141414;
+  --e-global-color-secondary: #f0ede6;
+  --e-global-color-text: #7a7a7a;
+  --e-global-color-accent: #0f0f0f;
+  --e-global-color-9314a05: #f0ede6;
+  --e-global-typography-primary-font-family: "Almarai";
+  --e-global-typography-primary-font-size: 65px;
+  --e-global-typography-primary-font-weight: 400;
+  --e-global-typography-primary-text-transform: uppercase;
+  --e-global-typography-primary-font-style: normal;
+  --e-global-typography-cef10f5-font-family: "Antic Didone";
 }
 
 /* WRAPPER */
-
 
 .container {
   margin: 0 auto;
   max-width: 1920px;
   width: 100%;
-  border: 2px solid  #0F0F0F;
+  border: 2px solid #0f0f0f;
 }
 
 /* SECTION 1 HOME */
@@ -44,22 +43,19 @@ body {
 }
 
 header {
- display: flex;
- justify-content: space-between;
- height: 95px;
- align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 95px;
+  align-items: center;
 }
-
 
 .menu {
   display: flex;
   gap: 1.5rem;
-
 }
 
-
 header h2 {
-  color: #F0EDE6;
+  color: #f0ede6;
   font-family: "Almarai", sans-serif;
   font-size: 2rem;
   letter-spacing: 1px;
@@ -67,21 +63,19 @@ header h2 {
   text-underline-offset: 0.5rem;
 }
 
-
-
 ul li a {
   font-family: "Almarai";
   font-size: 0.875rem;
-  color: #7A7A7A;
+  color: #7a7a7a;
   letter-spacing: 1px;
-  transition: .8s;
+  transition: 0.8s;
 }
 
-ul li a:hover{
-  color: #F0EDE6;
+ul li a:hover {
+  color: #f0ede6;
 }
 .active {
-  color: #F0EDE6;
+  color: #f0ede6;
 }
 
 .section1_company_about {
@@ -95,7 +89,7 @@ ul li a:hover{
   font-size: 4.06rem;
   font-family: "Almarai", sans-serif;
   line-height: 1.3;
-  color: #F0EDE6;
+  color: #f0ede6;
   text-align: center;
   margin-bottom: 1em;
 }
@@ -106,23 +100,24 @@ ul li a:hover{
 
 .button_get_started {
   background-color: inherit;
-  color: #F0EDE6;
+  color: #f0ede6;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
   letter-spacing: 1px;
-  border: 1px solid #F0EDE6;
+  border: 1px solid #f0ede6;
   border-radius: 1.5rem;
-  padding: .8rem 2.5rem;
+  padding: 0.8rem 2.5rem;
   display: block;
   margin-inline: auto;
-  transition: .8s;
-  
+  transition: 0.8s;
+  text-transform: uppercase;
 }
 
 .button_get_started:hover {
   color: #141414;
-  background-color: #F0EDE6;
+  background-color: #f0ede6;
   cursor: pointer;
 }
-
 
 /* SECTION 2 */
 .section2_home {
@@ -130,7 +125,7 @@ ul li a:hover{
   display: flex;
   justify-content: space-between;
   padding: 10%;
-  background-color: #F0EDE6;
+  background-color: #f0ede6;
 }
 
 .photo_box1 {
@@ -141,8 +136,9 @@ ul li a:hover{
 .room_photo1 {
   width: 100%;
   height: auto;
-  filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
-    transition-duration: 0.4s;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition-duration: 0.4s;
 }
 
 .room_photo1:hover {
@@ -157,17 +153,15 @@ ul li a:hover{
 
 .section2_home_title p {
   font-family: "Almarai", sans-serif;
-  color: #7A7A7A;
+  color: #7a7a7a;
   margin: 2em 0 3em;
   text-align: center;
-
 }
 
 .section2_home_title h2 {
   font-size: 2.81rem;
   font-family: "Alarmai", sans-serif;
   margin-bottom: 0.5em;
-
 }
 
 .span_every_lifestyle {
@@ -185,34 +179,35 @@ ul li a:hover{
 
 .button_learn_more {
   background-color: inherit;
-  color:#0F0F0F;
+  color: #0f0f0f;
+  font-family: "Alarmai", sans-serif;
+  font-weight: 500;
   letter-spacing: 1px;
-  border: 1px solid #0F0F0F;
+  border: 1px solid #0f0f0f;
   border-radius: 1.5rem;
-  padding: .8rem 2.5rem;
+  padding: 0.8rem 2.5rem;
   display: block;
   margin-inline: auto;
-  transition: .8s;
+  transition: 0.8s;
 }
 
 .button_learn_more:hover {
-  color: #F0EDE6;
-  background-color: #0F0F0F;
+  color: #f0ede6;
+  background-color: #0f0f0f;
   cursor: pointer;
-
 }
 
 /* ARTICLE 1 */
 .home_articles {
   margin: 0 auto;
   padding: 10% 3%;
-  background-color:#F0EDE6;
+  background-color: #f0ede6;
   display: flex;
   flex-direction: column;
   row-gap: 3em;
 }
 
-.home_articles h2{
+.home_articles h2 {
   width: 50%;
   font-family: "Alarmai", sans-serif;
   font-size: 2.81rem;
@@ -244,7 +239,6 @@ ul li a:hover{
 .article_description_box {
   width: 49%;
   /* border: 2px solid red; */
-  
 }
 
 .article_description_box_child {
@@ -260,25 +254,305 @@ ul li a:hover{
 
 .article_description_box p {
   padding-inline: 9%;
-  color: #7A7A7A;
+  color: #7a7a7a;
   line-height: 1.3;
-  margin-bottom: 12em;
+  margin-bottom: 13em;
 }
 
 .button_read_more {
   background-color: inherit;
-  font-size: 1.1rem;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
   letter-spacing: 1px;
-  color:#0F0F0F;
-  border: 1px solid #0F0F0F;
+  color: #0f0f0f;
+  border: 1px solid #0f0f0f;
   border-radius: 1.5rem;
   padding: 1rem 2.3rem;
-  transition: .8s;
+  transition: 0.8s;
+  text-transform: uppercase;
 }
 
 .button_read_more:hover {
-  color: #F0EDE6;
-  background-color: #0F0F0F;
+  color: #f0ede6;
+  background-color: #0f0f0f;
   cursor: pointer;
+}
 
+/* SECTION 3 */
+.section3_projects_complited {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10% 5%;
+  background-color: #f0ede6;
+}
+
+.statistic_info_box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.statistic_info_box h2 {
+  font-size: 4.18rem;
+  font-family: "Antic Didone", sans-serif;
+}
+
+.statistic_info_box p {
+  color: #7a7a7a;
+  font-family: "Alarmai", sans-serif;
+  font-weight: 400;
+}
+
+/* SECTION 4 */
+.section4_video_background {
+  margin: 0 auto;
+  padding-top: 8%;
+  min-height: 500px;
+  background-image: url("../photos/MEDIA-GALLERY_Salvatori_Inspiration_Singapore-loft-style-1.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section4_video_background div {
+  width: 45%;
+  margin-inline: auto;
+}
+
+.section4_video_background h2 {
+  font-family: "Almarai", sans-serif;
+  font-size: 2.81rem;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 2em;
+}
+
+.span_modern_living {
+  font-family: "Antic Didone";
+}
+
+.button_play_video {
+  background-color: #f0ede6;
+  opacity: 0.7;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: 1.5px solid #0f0f0f;
+  border-radius: 1.5rem;
+  padding: 0.8rem 3rem;
+  display: block;
+  margin-inline: auto;
+  transition: 0.8s;
+  text-transform: uppercase;
+}
+
+.button_play_video:hover {
+  background-color: #0f0f0f;
+  color: #f0ede6;
+  border-color: #f0ede6;
+  cursor: pointer;
+}
+
+/* ARTICLE 2 */
+.article2 {
+  margin: 0 auto;
+  padding: 10% 5% 15%;
+}
+
+.article2_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-bottom: 3em;
+}
+
+.article2_div1 {
+  width: 45%;
+}
+
+.article2_description h2 {
+  font-family: "Alarmai", sans-serif;
+  font-size: 2.81rem;
+  line-height: 1.3;
+  color: #f0ede6;
+}
+
+.span_makee_lives_better {
+  font-family: "Antic Didone", sans-serif;
+}
+
+.button_all_projects {
+  background-color: inherit;
+  color: #f0ede6;
+  font-family: "Almarai", sans-serif;
+  letter-spacing: 1px;
+  border: 1.5px solid #f0ede6;
+  border-radius: 1.5rem;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  display: flex;
+  gap: 1em;
+  transition: 0.8s;
+}
+
+.button_all_projects::after {
+  content: "\f178";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  color: #f0ede6;
+  transition: 0.8s;
+}
+
+.button_all_projects:hover {
+  background-color: #f0ede6;
+  color: #0f0f0f;
+  cursor: pointer;
+}
+
+.button_all_projects:hover:after {
+  color: #0f0f0f;
+}
+
+.article2_cards_parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 10em;
+}
+
+.figure1 {
+  width: 48%;
+  height: 415px;
+}
+
+.figcaption1 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.card2_photo {
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition-duration: 0.4s;
+}
+
+.card2_photo:hover {
+  filter: none;
+}
+
+.card4_photo {
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition-duration: 0.4s;
+}
+
+.card4_photo:hover {
+  filter: none;
+}
+
+.figure1 p {
+  color: #f0ede6;
+  font-size: 1.06rem;
+  font-family: "Antic Didone", sans-serif;
+  font-style: normal;
+  margin-bottom: 1em;
+}
+
+.figure1 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.figure1 div > h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Almarai", sans-serif;
+  text-transform: uppercase;
+}
+
+.button_view_project {
+  padding: 1rem 2rem;
+}
+
+
+
+/* ARTICLE 3 */
+.article3 {
+  margin: 0 auto;
+  padding: 10% 5% 15%;
+  background-color: #f0ede6;
+}
+
+
+.article3 h2 {
+  width: 50%;
+  text-align: center;
+  color: #141414;
+  font-family: "Almarai", sans-serif;
+  font-size: 2.81rem;
+  line-height: 1.4;
+  margin:0 auto 2em;
+}
+
+.span_interior_design {
+  font-family: "Antic Didone",  sans-serif;
+}
+
+.figure2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_cards_box {
+  width: 31%;
+  height: 415px;
+}
+
+.figcaption2 img {
+  width: 100%;
+  height: auto;
+  transition: all .8s ease;
+}
+
+.figcaption2 {
+  margin-bottom: 2em;
+  
+  
+}
+
+.figcaption2 img:hover {
+  transform: rotateY(180deg);
+    opacity: .8; 
+}
+
+.article_cards_box_description {
+  display: flex;
+  gap: .5em;
+  margin-bottom: 1.5em;
+}
+
+.article_cards_box_description p{
+  font-family: "Almarai", sans-serif;
+  font-size: 0.8rem;
+  color: #f0ede6;
+  background-color: #141414;
+  padding: .5em 1.5em;
+  border-radius: 30px;
+}
+
+.article_cards_box h3 {
+  font-family: "Almarai", sans-serif;
+  font-size: 1.45rem;
+  margin-bottom: 1em;
+}
+
+
+.ask_project_info p {
+  color: #7a7a7a;
+  font-family: "Antic Didone", sans-serif;
 }
