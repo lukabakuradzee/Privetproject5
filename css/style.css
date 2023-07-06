@@ -432,16 +432,31 @@ ul li a:hover {
   height: auto;
   margin-bottom: 1em;
   cursor: pointer;
+  object-fit: cover;
 }
+
+
 
 .card2_photo {
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
     hue-rotate(0deg);
-  transition-duration: 0.4s;
+  transition: 0.8s ease;
 }
 
 .card2_photo:hover {
   filter: none;
+}
+
+.card_photo3 {
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition-duration: 0.8s;
+  object-fit: cover;
+}
+
+.card_photo3:hover {
+ filter: none;
+
 }
 
 .card4_photo {
@@ -521,7 +536,6 @@ ul li a:hover {
 
 .figcaption2 {
   margin-bottom: 2em;
-  
   
 }
 
@@ -676,6 +690,7 @@ ul li a:hover {
 .user_photo_box img {
   width: 100%;
   height: auto;
+  transition: 0.8s;
 }
 
 .user_photo_box img:hover {
