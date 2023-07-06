@@ -484,7 +484,7 @@ ul li a:hover {
 /* ARTICLE 3 */
 .article3 {
   margin: 0 auto;
-  padding: 10% 5% 15%;
+  padding: 10% 5% 20%;
   background-color: #f0ede6;
 }
 
@@ -509,14 +509,14 @@ ul li a:hover {
 }
 
 .article_cards_box {
-  width: 31%;
+  width: 32%;
   height: 415px;
 }
 
 .figcaption2 img {
   width: 100%;
   height: auto;
-  transition: all .8s ease;
+  transition: all 1s ease;
 }
 
 .figcaption2 {
@@ -545,6 +545,10 @@ ul li a:hover {
   border-radius: 30px;
 }
 
+.article_cards_box_description p:hover {
+  transform: matrix3d(-0.6,       1.34788, 0,        );
+}
+
 .article_cards_box h3 {
   font-family: "Almarai", sans-serif;
   font-size: 1.45rem;
@@ -555,4 +559,125 @@ ul li a:hover {
 .ask_project_info p {
   color: #7a7a7a;
   font-family: "Antic Didone", sans-serif;
+}
+
+
+/* SECTION 5 */
+.section5 {
+  margin: 0 auto;
+  background-color: #0f0f0f;
+  display: flex;
+}
+
+.section5_left_side_photo {
+  width: 50%;
+  height: 550px;
+  overflow: hidden;
+}
+
+.section5_left_side_photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .8s ease;
+}
+
+.section5_left_side_photo img:hover {
+  transform: scale(1.2);
+}
+
+.section5_right_side_title {
+  width: 50%;
+  padding-inline: 5%;
+  /* border: 2px solid red; */
+}
+
+.section5_right_side_title h3 {
+  margin-top: 2em;
+  color: white;
+  font-size: 2.81rem;
+  font-family: "Alarmai", sans-serif;
+  line-height: 1.3;
+  margin-bottom: 1em;
+
+}
+
+.section5_right_side_title p {
+  color: #7a7a7a;
+  font-family: "Almarai", sans-serif;
+  line-height: 1.3;
+  margin-bottom: 2em;
+}
+
+.span_glad_to_see_new {
+  font-family: "Antic Didone", sans-serif;
+}
+
+.section5_right_side_title>div {
+  display: flex;
+}
+
+
+/* SECTION 6 FEEDBACK */
+.section6_feedback {
+  margin:  0 auto;
+  padding: 10% 5%;
+  background-color: #f0ede6;
+}
+
+.section6_feedback h2 {
+  font-size: 2.81rem;
+  font-family: "Almarai", sans-serif;
+  color: #141414;
+  line-height: 1.4;
+  width: 40%;
+  margin-bottom: 1.5em;
+}
+
+.span_beloved_clients {
+  font-family: "Antic Didone", sans-serif;
+}
+
+
+.testimonials_box {
+  display: flex;
+  
+}
+
+.testimonial_feedback_text {
+  width: 50%;
+  padding-right: 3%;
+}
+
+.feedback_text {
+  font-size: 1.3rem;
+  font-family: "Antic Didone", sans-serif;
+  line-height: 1.4;
+  color: #141414;
+  margin: 10em 0 2em;
+}
+
+.user_name {
+  font-family: "Alarmai", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+.user_position  { 
+  font-size: 1.1rem;
+  color: #7a7a7a;
+}
+
+.user_photo_box {
+  width: 50%;
+  height: 600px;
+}
+
+.user_photo_box img {
+  width: 100%;
+  height: auto;
+}
+
+.user_photo_box img:hover {
+  opacity: 0.8;
 }
