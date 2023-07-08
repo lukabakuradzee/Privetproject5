@@ -696,3 +696,57 @@ ul li a:hover {
 .user_photo_box img:hover {
   opacity: 0.8;
 }
+
+
+/* SECTION 7  */
+  .section7_subscribe_newsletter {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15% 5%;
+    height: 450px;
+    background-image: url("../photos/card4.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section7_subscribe_newsletter h3 {
+    font-family: "Alarmai", sans-serif;
+    font-size: 2.81rem;
+    color: white;
+
+  }
+
+  .section7_subscribe_newsletter h3 span {
+    font-family: "Antic Didone", sans-serif;
+    width: 45%;
+  }
+
+  .form_home_page {
+    width: 35%;
+    /* border: 2px solid red; */
+  }
+
+  .section7_subscribe_newsletter form input {
+    font-size: 1.05rem;
+    font-family: "Antic Didone", sans-serif;
+    color: #f0ede6;
+    background-color: inherit;
+    border-style: none;
+    border-bottom: 2px solid #f0ede6;
+    outline: none;
+    width: 100%;
+    padding-bottom: 1em;
+
+  }
+ 
+  ::placeholder {
+    color: #f0ede6;
+    font-family: "Antic Didone", sans-serif;
+  }
+
+
+
+  /* FOOTER */
+  
