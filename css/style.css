@@ -21,6 +21,11 @@ body {
   --e-global-typography-cef10f5-font-family: "Antic Didone";
 }
 
+.hidden-section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
 /* WRAPPER */
 
 .container {
@@ -835,7 +840,7 @@ footer {
   margin: 0 auto;
   padding: 0 3%;
   min-height: 400px;
-  background-image: url("../photos/Design-Anthology-2022-04+Light+_+Dark+apartment\,+Tainan+-+Degree+Design-Degree_Design_BBBLACK-239.jpg");
+  background-image: url("../photos/Design-Anthology-2022-04+Light+_+Dark+apartment\,+Tainan+-+Degree+Design-Degree_Design_BBBLACK-266.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -904,13 +909,13 @@ footer {
   left: -10%;
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
     hue-rotate(0deg);
-  transition-duration: 0.4s;
+  transition-duration: 0.8s;
 }
 
 .fig2_absolute:hover {
   filter: none;
+  transform: rotateY(180deg);
 }
-
 
 /* SECTION 3 ABOUT PAGE */
 .section3_about_page {
@@ -953,31 +958,140 @@ footer {
   flex-wrap: wrap;
 }
 
-.services_box_parent div{
+.services_box_parent div {
   width: 48%;
   padding: 3.5% 0;
   display: flex;
   align-items: center;
   gap: 1em;
   border-top: 1px solid #7a7a7a;
-
 }
-
-
 
 .div_bottom_border {
   border-bottom: 1px solid #7a7a7a;
-  
 }
 
-
-
-.services_box_parent>div span {
+.services_box_parent > div span {
   font-size: 1.2rem;
   font-family: "Antic Didone", sans-serif;
 }
 
-.services_box_parent>div h3 {
+.services_box_parent > div h3 {
   font-family: "Almarai", sans-serif;
   font-size: 1.5rem;
+}
+
+/* SECTION 6 */
+.section6_video_about {
+  margin: 0 auto;
+  padding-top: 8%;
+  min-height: 500px;
+  background-image: url("../photos/YCL_STRAUSS\ apartment_HIGH\ q\ \(2\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section6_video_about div {
+  width: 45%;
+  margin-inline: auto;
+}
+
+.section6_video_about h2 {
+  font-family: "Almarai", sans-serif;
+  font-size: 2.81rem;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+/* SECTION 7 */
+.section7_our_values {
+  margin: 0 auto;
+  padding: 8% 3%;
+  background-color: #f0ede6;
+}
+
+.section7_our_values h2 {
+  font-size: 2.81rem;
+  font-family: "Alarmai", sans-serif;
+  line-height: 1.4;
+  width: 40%;
+  margin-bottom: 2em;
+}
+
+.our_values_box_parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1em;
+}
+
+.our_values_child {
+  padding: 4%;
+  width: 32%;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #1414142b;
+  transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-bottom: 1em;
+}
+
+/* .our_values_child:hover {
+  background-color: black;
+} */
+
+.icon_title {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+
+
+.paper_icon {
+  font-size: 1.4rem;
+  color: #141415;
+}
+
+.book_icon {
+  font-size: 1.4rem;
+  color: #141415;
+}
+
+.lock_icon {
+  font-size: 1.4rem;
+  color: #141415;
+}
+
+.rocket_icon {
+  font-size: 1.4rem;
+  color: #141415;
+}
+
+.eye_icon {
+  font-size: 1.4rem;
+  color: #141415;
+}
+
+.hour_glass_icon {
+  font-size: 1.4rem;
+  color: #141415;
+}
+
+
+.icon_title a {
+  font-size: 1.2rem;
+  font-family: "Alarmai", sans-serif;
+  color: #141414;
+}
+
+/* .icon_title:hover {
+  color: white;
+} */
+
+.our_values_child p {
+  color: #7a7a7a;
+  font-family: "Alarmai", sans-serif;
+  line-height: 1.4;
 }
