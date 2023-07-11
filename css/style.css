@@ -64,10 +64,10 @@ header h2 {
 }
 
 ul li a {
-  font-family: "Almarai";
+  font-family: "Antic Didone", sans-serif;
   font-size: 0.875rem;
   color: #7a7a7a;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   transition: 0.8s;
 }
 
@@ -239,7 +239,7 @@ ul li a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: .8s ease;
+  transition: 0.8s ease;
 }
 
 .article_description_box {
@@ -441,8 +441,6 @@ ul li a:hover {
   object-fit: cover;
 }
 
-
-
 .card2_photo {
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
     hue-rotate(0deg);
@@ -461,8 +459,7 @@ ul li a:hover {
 }
 
 .card_photo3:hover {
- filter: none;
-
+  filter: none;
 }
 
 .card4_photo {
@@ -500,15 +497,12 @@ ul li a:hover {
   padding: 1rem 2rem;
 }
 
-
-
 /* ARTICLE 3 */
 .article3 {
   margin: 0 auto;
   padding: 10% 5% 20%;
   background-color: #f0ede6;
 }
-
 
 .article3 h2 {
   width: 50%;
@@ -517,11 +511,11 @@ ul li a:hover {
   font-family: "Almarai", sans-serif;
   font-size: 2.81rem;
   line-height: 1.4;
-  margin:0 auto 2em;
+  margin: 0 auto 2em;
 }
 
 .span_interior_design {
-  font-family: "Antic Didone",  sans-serif;
+  font-family: "Antic Didone", sans-serif;
 }
 
 .figure2 {
@@ -542,31 +536,30 @@ ul li a:hover {
 
 .figcaption2 {
   margin-bottom: 2em;
-  
 }
 
 .figcaption2 img:hover {
   transform: rotateY(180deg);
-    opacity: .8; 
+  opacity: 0.8;
 }
 
 .article_cards_box_description {
   display: flex;
-  gap: .5em;
+  gap: 0.5em;
   margin-bottom: 1.5em;
 }
 
-.article_cards_box_description p{
+.article_cards_box_description p {
   font-family: "Almarai", sans-serif;
   font-size: 0.8rem;
   color: #f0ede6;
   background-color: #141414;
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
   border-radius: 30px;
 }
 
 .article_cards_box_description p:hover {
-  transform: matrix3d(-0.6,       1.34788, 0,        );
+  transform: matrix3d(-0.6, 1.34788, 0);
 }
 
 .article_cards_box h3 {
@@ -575,12 +568,10 @@ ul li a:hover {
   margin-bottom: 1em;
 }
 
-
 .ask_project_info p {
   color: #7a7a7a;
   font-family: "Antic Didone", sans-serif;
 }
-
 
 /* SECTION 5 */
 .section5 {
@@ -599,7 +590,7 @@ ul li a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: .8s ease;
+  transition: 0.8s ease;
 }
 
 .section5_left_side_photo img:hover {
@@ -619,7 +610,6 @@ ul li a:hover {
   font-family: "Alarmai", sans-serif;
   line-height: 1.3;
   margin-bottom: 1em;
-
 }
 
 .section5_right_side_title p {
@@ -633,14 +623,13 @@ ul li a:hover {
   font-family: "Antic Didone", sans-serif;
 }
 
-.section5_right_side_title>div {
+.section5_right_side_title > div {
   display: flex;
 }
 
-
 /* SECTION 6 FEEDBACK */
 .section6_feedback {
-  margin:  0 auto;
+  margin: 0 auto;
   padding: 10% 5%;
   background-color: #f0ede6;
 }
@@ -658,10 +647,8 @@ ul li a:hover {
   font-family: "Antic Didone", sans-serif;
 }
 
-
 .testimonials_box {
   display: flex;
-  
 }
 
 .testimonial_feedback_text {
@@ -683,7 +670,7 @@ ul li a:hover {
   margin-bottom: 1em;
 }
 
-.user_position  { 
+.user_position {
   font-size: 1.1rem;
   color: #7a7a7a;
 }
@@ -703,60 +690,55 @@ ul li a:hover {
   opacity: 0.8;
 }
 
-
 /* SECTION 7  */
-  .section7_subscribe_newsletter {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 15% 5%;
-    height: 450px;
-    background-image: url("../photos/card4.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+.section7_subscribe_newsletter {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15% 5%;
+  height: 450px;
+  background-image: url("../photos/card4.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  .section7_subscribe_newsletter h3 {
-    font-family: "Alarmai", sans-serif;
-    font-size: 2.81rem;
-    color: white;
+.section7_subscribe_newsletter h3 {
+  font-family: "Alarmai", sans-serif;
+  font-size: 2.81rem;
+  color: white;
+}
 
-  }
+.section7_subscribe_newsletter h3 span {
+  font-family: "Antic Didone", sans-serif;
+  width: 45%;
+}
 
-  .section7_subscribe_newsletter h3 span {
-    font-family: "Antic Didone", sans-serif;
-    width: 45%;
-  }
+.form_home_page {
+  width: 35%;
+  /* border: 2px solid red; */
+}
 
-  .form_home_page {
-    width: 35%;
-    /* border: 2px solid red; */
-  }
+.section7_subscribe_newsletter form input {
+  font-size: 1.05rem;
+  font-family: "Antic Didone", sans-serif;
+  color: #f0ede6;
+  background-color: inherit;
+  border-style: none;
+  border-bottom: 2px solid #f0ede6;
+  outline: none;
+  width: 100%;
+  padding-bottom: 1em;
+}
 
-  .section7_subscribe_newsletter form input {
-    font-size: 1.05rem;
-    font-family: "Antic Didone", sans-serif;
-    color: #f0ede6;
-    background-color: inherit;
-    border-style: none;
-    border-bottom: 2px solid #f0ede6;
-    outline: none;
-    width: 100%;
-    padding-bottom: 1em;
+::placeholder {
+  color: #f0ede6;
+  font-family: "Antic Didone", sans-serif;
+}
 
-  }
- 
-  ::placeholder {
-    color: #f0ede6;
-    font-family: "Antic Didone", sans-serif;
-  }
+/* FOOTER */
 
-
-
-  /* FOOTER */
-
-footer { 
+footer {
   margin: 0 auto;
   padding: 10% 5%;
   display: flex;
@@ -774,10 +756,6 @@ footer {
 .footer_nav {
   width: 32%;
 }
-
-
-
-
 
 .footer_nav a {
   font-family: "Almarai";
@@ -799,14 +777,13 @@ footer {
   margin-bottom: 1em;
 }
 
-
 .footer_nav span {
   font-size: 1.2rem;
   font-weight: 300;
   color: #7a7a7a;
   background-color: #02010100;
   font-family: "Antic Didone", sans-serif;
-  transition: .8s;
+  transition: 0.8s;
   cursor: pointer;
 }
 
@@ -818,7 +795,7 @@ footer {
   width: 32%;
 }
 
-.footer_nav1 p{
+.footer_nav1 p {
   color: white;
   font-family: "Alarmai", sans-serif;
   margin-bottom: 1em;
@@ -827,9 +804,9 @@ footer {
 .footer_nav1 a {
   display: block;
   margin-bottom: 1em;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #7a7a7a;
-  transition: .8s;
+  transition: 0.8s;
   cursor: pointer;
 }
 
@@ -848,8 +825,159 @@ footer {
   margin-bottom: 1em;
   line-height: 1.3;
 }
-  
+
 .footer_right_side button {
   display: inline;
 }
 
+/* ABOUT PAGE */
+.section1_about_page {
+  margin: 0 auto;
+  padding: 0 3%;
+  min-height: 400px;
+  background-image: url("../photos/Design-Anthology-2022-04+Light+_+Dark+apartment\,+Tainan+-+Degree+Design-Degree_Design_BBBLACK-239.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section1_about_heading h2 {
+  color: white;
+  font-size: 2.2rem;
+  font-family: "Alarmai", sans-serif;
+  margin: 3em 0 1em;
+  text-align: center;
+}
+
+.section1_about_heading div {
+  width: 12%;
+  margin-inline: auto;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.section1_about_heading div a {
+  font-size: 1.1rem;
+  color: #ffffff8a;
+  font-family: "Antic Didone", sans-serif;
+  transition: 0.8s;
+}
+
+.right_arrow_icon {
+  color: #f0ede6;
+}
+
+.section1_about_heading div a:hover {
+  color: white;
+}
+
+/* SECTION 2 ABOUT PAGE */
+.section2_about_page {
+  margin: 0 auto;
+  padding: 5% 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_get_started2 {
+  display: inline;
+}
+
+.photo_box_layers {
+  width: 50%;
+  height: 600px;
+  position: relative;
+}
+
+.fig1_absolute {
+  width: 100%;
+  height: 100%;
+}
+
+.fig2_absolute {
+  width: 350px;
+  height: 230px;
+  position: absolute;
+  inset: 0;
+  top: 70%;
+  left: -10%;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition-duration: 0.4s;
+}
+
+.fig2_absolute:hover {
+  filter: none;
+}
+
+
+/* SECTION 3 ABOUT PAGE */
+.section3_about_page {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.section3_about_page h2 {
+  color: white;
+}
+
+.section3_about_page span {
+  color: white;
+}
+
+.section3_about_page p {
+  color: #ffffff8a;
+}
+
+/* SECTION 4 */
+
+.section4_about_page {
+  margin: 0 auto;
+  padding: 10% 3%;
+  background-color: #f0ede6;
+}
+
+.section4_about_page h2 {
+  font-size: 2.81rem;
+  line-height: 1.3;
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+.services_box_parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services_box_parent div{
+  width: 48%;
+  padding: 3.5% 0;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  border-top: 1px solid #7a7a7a;
+
+}
+
+
+
+.div_bottom_border {
+  border-bottom: 1px solid #7a7a7a;
+  
+}
+
+
+
+.services_box_parent>div span {
+  font-size: 1.2rem;
+  font-family: "Antic Didone", sans-serif;
+}
+
+.services_box_parent>div h3 {
+  font-family: "Almarai", sans-serif;
+  font-size: 1.5rem;
+}
