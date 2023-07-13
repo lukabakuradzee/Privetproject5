@@ -143,11 +143,12 @@ ul li a:hover {
   height: auto;
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
     hue-rotate(0deg);
-  transition-duration: 0.4s;
+  transition-duration: 0.8s;
 }
 
 .room_photo1:hover {
   filter: none;
+  transform: translateY(-10%);
 }
 
 .section2_home_title {
@@ -840,10 +841,11 @@ footer {
   margin: 0 auto;
   padding: 0 3%;
   min-height: 400px;
-  background-image: url("../photos/Design-Anthology-2022-04+Light+_+Dark+apartment\,+Tainan+-+Degree+Design-Degree_Design_BBBLACK-266.jpg");
+  background-image: url("../photos/IN_41020001_41020002_002.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 .section1_about_heading h2 {
@@ -1033,13 +1035,14 @@ footer {
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-color: #1414142b;
-  transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: 0.6s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin-bottom: 1em;
 }
 
-/* .our_values_child:hover {
-  background-color: black;
-} */
+.our_values_child:hover {
+  border-color: #0f0f0f;
+  transform: translateY(-10%);
+}
 
 .icon_title {
   display: flex;
@@ -1094,4 +1097,128 @@ footer {
   color: #7a7a7a;
   font-family: "Alarmai", sans-serif;
   line-height: 1.4;
+}
+
+/* SECTION 8  */
+.section8_company_porfessionals {
+  margin: 0 auto;
+  padding: 10% 3%;
+}
+
+.section8_company_porfessionals h2 {
+  width: 50%;
+  font-size: 2.81rem;
+  font-family: 'Almarai', sans-serif;
+  color: white;
+  line-height: 1.4;
+  text-align: center;
+  margin: 0 auto 2em;
+ 
+}
+
+.section8_company_porfessionals span {
+  font-family: "Antic Didone", sans-serif;
+}
+
+.figure_team_professionals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employess_info_box {
+  width: 23%;
+}
+
+.employess_info_box figcaption {
+  overflow: hidden;
+}
+
+
+.figure_team_professionals div figcaption img {
+  width: 100%;
+  height: auto;
+  filter: brightness( 95% ) contrast( 110% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    transition-duration: 0.4s;
+    object-fit: cover;
+}
+
+.figure_team_professionals div img:hover {
+  filter: none;
+  transform: scale(1.05);
+}
+
+.figure_team_professionals div figcaption {
+  margin-bottom: 2em;
+}
+
+.worker_name {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  padding-top: 8%;
+  margin-bottom: 1em;
+}
+
+.worker_name h3 {
+  color: white;
+  font-family: 'Alarmai', sans-serif;
+}
+
+.worker_name span {
+  color: #FFFFFFD9;
+}
+
+
+.figure_team_professionals p{
+  color: #afacac;
+  font-family: 'Antic Didone', sans-serif;
+}
+
+
+/* SECTION 9 */
+.section9_customers_questions {
+  margin: 0 auto;
+  padding: 10% 3%;
+  background-color: #f0ede6;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.customers_question_heading {
+  width: 45%;
+
+}
+
+.section9_customers_questions div h2 {
+  font-size: 2.81rem;
+  font-family: 'Alarmai', sans-serif;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+.section9_customers_questions div span {
+  font-family: "Antic Didone", sans-serif;
+}
+
+.section9_customers_questions div p {
+  font-family: 'Alarmai', sans-serif;
+  color:#7a7a7a;
+  line-height: 1.5;
+}
+
+
+.questions_box {
+  border-bottom: 1px solid #141414;
+  padding-bottom: 8%;
+  display: flex;
+  margin-bottom: 2em;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4em;
+}
+
+.questions_box h3{
+  font-family: 'Alarmai', sans-serif;
+  color: #141414;
 }
