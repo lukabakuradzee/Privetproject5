@@ -314,6 +314,7 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+  /* border: 2px solid red; */
 }
 
 .statistic_info_box h2 {
