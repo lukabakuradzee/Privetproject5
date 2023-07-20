@@ -21,16 +21,27 @@ body {
   --e-global-typography-cef10f5-font-family: "Antic Didone";
 }
 
-.hidden-section {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid inherit;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0px 1000px #f0ede6 inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
+
 
 /* WRAPPER */
 
 .container {
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 100vw;
   width: 100%;
   border: 2px solid #0f0f0f;
 }
@@ -71,7 +82,7 @@ header h2 {
 ul li a {
   font-family: "Antic Didone", sans-serif;
   font-size: 0.875rem;
-  color: #7a7a7a;
+  color: #b7b6b6;
   letter-spacing: 1.5px;
   transition: 0.8s;
 }
@@ -841,7 +852,7 @@ footer {
   margin: 0 auto;
   padding: 0 3%;
   min-height: 400px;
-  background-image: url("../photos/IN_41020001_41020002_002.jpg");
+  background-image: url("../photos/dow1black.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1221,4 +1232,163 @@ footer {
 .questions_box h3{
   font-family: 'Alarmai', sans-serif;
   color: #141414;
+}
+
+
+
+/* CONTACT PAGE */ 
+.section1_contact_page {
+  margin: 0 auto;
+  padding: 0 3%;
+  min-height: 400px;
+  background-image: url("../photos/how-minimal-window-frames-maximize-light-views-and-transparency_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* SEECTION 2 */
+.section2_contact {
+  margin: 0 auto;
+  background-color: #f0ede6;
+  padding: 10%  3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.get_in_touch_box {
+  width: 45%;
+}
+
+.get_in_touch_box h2 {
+  font-size: 2.81rem;
+  font-family: 'Alarmai', sans-serif;
+  margin: 1em 0;
+}
+
+.span_touch {
+  font-family: 'Antic Didone',sans-serif;
+}
+
+.get_in_touch_child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2em;
+}
+
+.get_in_touch_child div {
+  width: 45%;
+}
+
+
+.get_in_touch_child div h3 {
+  color: #141414;
+  font-family: "Alarmai", sans-serif;
+  margin-bottom: 1em;
+}
+
+.get_in_touch_child div p{
+  color: #afacac;
+  font-family: 'Alarmai', sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.get_in_touch_child div span {
+  font-family: 'Antic Didone', sans-serif;
+  font-size: 1.1rem;
+  color: #7a7a7a;
+}
+
+iframe {
+  width: 50%;
+  height: 500px;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+    transition: 0.8s;
+}
+
+iframe:hover {
+  filter: none;
+}
+
+
+
+/* SECTION 3 PROJECT TALK */
+.section4_project_talk {
+  margin: 0 auto;
+  background-color: #f0ede6;
+  padding: 0% 20% 10%;
+}
+
+.section4_project_talk h2 {
+  font-size: 2.81rem;
+  font-family: 'Alarmai', sans-serif;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.span_about_project {
+  font-family: 'Antic Didone', sans-serif;
+}
+
+.form2_contact_page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2.5em;
+}
+
+.form2_contact_page input {
+  font-size: 1.05rem;
+  font-family: "Antic Didone", sans-serif;
+  color: #7a7a7a;
+  background-color: inherit;
+  border-style: none;
+  border-bottom: 1px solid #141414;
+  outline: none;
+  width: 48%;
+  padding-bottom: 1em;
+}
+
+
+
+.form2_contact_page input::placeholder {
+  color: #7a7a7a;
+}
+
+.textarea_2 {
+  width: 100%;
+  font-family: 'Antic Didone', sans-serif;
+  border-style: none;
+  border-bottom: 1px solid #141414;
+  background-color: inherit;
+  outline: none;
+}
+
+
+.textarea_2::placeholder {
+  color: #7a7a7a;
+  font-size: 1.1rem;
+}
+
+.submit2_button {
+  background-color: inherit;
+  font-family: 'Alarmai', sans-serif;
+  letter-spacing: 1px;
+  border: 2px solid #141414;
+  border-width: 1px;
+  padding: 1.2em 3em;
+  border-radius: 30px;
+  display: block;
+  margin-inline: auto;
+  transition: .8s;
+  cursor: pointer;
+}
+
+.submit2_button:hover {
+  color: white;
+  background-color: #141414;
+
 }
