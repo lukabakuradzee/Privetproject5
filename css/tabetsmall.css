@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+
+  /* section 2 */
+  .section2_home {
+    padding: 5%;
+  }
+
+  .section2_home_title {
+    width: 100%;
+   
+    
+  }
+
+  .section2_home_title h2 {
+    text-align: center;
+  }
+
+  .photo_box1 {
+    width: 200px;
+    margin-top: 12em;
+  }
+
+  .second_photo2 {
+    width: 200px;
+    margin-top: 6em;
+  
+  }
+
+
+  /* article 1 */
+  .home_articles h2  {
+    width: 70%;
+  }
+
+  .article_photo_box {
+    height: 280px;
+  }
+
+  .article_description_box_child {
+    gap: .2em;
+  }
+
+  
+
+  .architectural_design_heading {
+    font-size: 1.375rem;
+  }
+
+  .article_description_box p {
+    
+    margin-bottom: 6em;
+
+}
+
+/* article 2 */
+.article2_div1 {
+  width: 70%;
+}
+
+.button_all_projects {
+  padding: 0.8rem 2rem;
+}
+
+.article2_cards_parent {
+  row-gap: 12em;
+}
+
+.figure1  {
+  width: 100%;
+}
+
+
+/* article 3 */
+.article3 h2  {
+  width: 70%;
+  margin-bottom: 1em;
+}
+
+.figure2 {
+  flex-wrap: wrap;
+  row-gap: 8em;
+
+}
+
+.article_cards_box {
+  width: 48%;
+}
+
+.article_cards_box h3 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+
+}
+
+/* section 6 */
+
+.section6_feedback {
+  padding-bottom: 20%;
+}
+
+.section6_feedback h2 {
+  width: 60%;
+  margin-bottom: 0;
+}
+.testimonials_box {
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.testimonial_feedback_text {
+  width: 100%;
+}
+
+.user_photo_box {
+  width: 100%;
+}
+
+/* newsletteer */
+.form_home_page {
+  margin-top: 2.5em;
+  width: 50%;
+}
+
+
+
+/* about page */
+
+}

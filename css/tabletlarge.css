@@ -99,9 +99,12 @@
   height: 500px;
  }
 
+ .section5_right_side_title {
+  padding-inline: 2%;
+ }
+
  .section5_right_side_title h3 {
   margin-top: 1em;
-  text-align: center;
   font-size: 2.375rem;
  }
 
@@ -144,6 +147,78 @@
  }
 
  
+
+ /* About page */
+
+ .section4_about_page h2 {
+  font-size: 2.375rem;
+ }
+
+
+
+ .section6_video_about {
+  padding-top: 10%;
+   min-height: 400px;
+ }
+
+ .section6_video_about div {
+  width: 80%;
+ }
+
+ .section6_video_about h2 {
+  font-size: 2.375rem;
+ }
+
+ .section7_our_values h2 {
+   font-size: 2.375rem;
+ }
+
+ .section8_company_porfessionals {
+   padding: 6% 3%;
+ }
+
+
+ .section8_company_porfessionals h2 {
+  width: 100%;
+  font-size: 2.375rem;
+  margin-bottom: 1em;
+ }
+
+ .figure_team_professionals {
+   flex-wrap: wrap;
+   row-gap: 2em;
+
+ }
+
+ .employess_info_box {
+  width: 48%;
+ }
+
+
+ .section9_customers_questions div h2 {
+  font-size: 2.375rem;
+ }
+
+ /* contact page */
+
+.section2_contact {
+  padding-top: 6%;
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.get_in_touch_box {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+.section4_project_talk {
+  padding-inline: 3%;
+}
+
 
 
 }
