@@ -67,7 +67,20 @@ header {
 
 .menu {
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
+}
+
+
+.show {
+ 
+}
+
+
+.burgermenu,
+.xmark {
+  color: #f0ede6;
+  font-size: 1.8rem;
+  display: none;
 }
 
 header h2 {
@@ -1229,6 +1242,8 @@ footer {
   justify-content: space-between;
   gap: 4em;
 }
+
+
 
 .questions_box h3{
   font-family: 'Alarmai', sans-serif;

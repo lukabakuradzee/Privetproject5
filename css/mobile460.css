@@ -1,0 +1,338 @@
+@media (max-width: 460px) {
+  .burgermenu {
+    display: block;
+  }
+
+  .menu {
+    width: 80vw;
+    height: 50vh;
+    border-radius: 2px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    background-color: #f0ede6;
+    transition: 1s ease;
+  }
+
+  .show {
+    left: 0;
+  }
+
+  .active {
+    color: #141414;
+  }
+
+  /* section1 */
+  .section1_company_about {
+    margin-top: 5em;
+  }
+
+  .section1_company_about h1 {
+    font-size: 2.5rem;
+  }
+
+  /* section 2  */
+
+  .section2_home {
+    padding-top: 10%;
+    flex-direction: column;
+    place-items: center;
+    row-gap: 5em;
+  }
+
+  .photo_box1 {
+    width: 80%;
+    margin: 0;
+  }
+
+  .second_photo2 {
+    margin-top: 0;
+  }
+
+  .section2_home_title h2 {
+    line-height: 1.4;
+  }
+
+  /* article 1 */
+
+  .home_articles h2 {
+    font-size: 2.125rem;
+    width: 100%;
+  }
+
+  .article_section1 {
+    flex-direction: column;
+    row-gap: 2em;
+    padding-bottom: 8%;
+  }
+
+  .article_photo_box {
+    width: 100%;
+  }
+
+  .article_description_box {
+    width: 100%;
+  }
+
+  .article_description_box p {
+    margin-bottom: 3em;
+    padding-inline: 0;
+  }
+
+  .article_description_box_child {
+    flex-direction: column;
+    row-gap: 1em;
+  }
+
+  /* section 3  */
+  .section3_projects_complited {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statistic_info_box h2 {
+    font-size: 2.56rem;
+  }
+
+  /* section 4 */
+  .section4_video_background {
+    padding-top: 25%;
+  }
+
+  .section4_video_background h2 {
+    font-size: 2.12rem;
+  }
+
+  /* article 2 */
+  .article2_description {
+    flex-direction: column;
+    row-gap: 2em;
+  }
+
+  .article2_cards_parent {
+    row-gap: 5em;
+  }
+
+  .article2_div1 {
+    width: 100%;
+  }
+
+  .article2_description h2 {
+    text-align: center;
+    font-size: 2.12rem;
+  }
+
+  .figure1 p {
+    margin-bottom: 1.5em;
+  }
+
+  .figure1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 1.5em;
+  }
+
+  /* article 3 */
+
+  .article3 {
+    padding-bottom: 50%;
+  }
+
+  .article3 h2 {
+    font-size: 2.12rem;
+    width: 100%;
+  }
+
+  .figure2 {
+    flex-direction: column;
+    row-gap: 12em;
+  }
+
+  .article_cards_box {
+    width: 100%;
+  }
+
+  /* section 5 */
+  .section5 {
+    padding-bottom: 10%;
+    row-gap: 2em;
+  }
+  .section5_right_side_title h3 {
+    font-size: 2.12rem;
+  }
+
+  /* section 6 */
+  .section6_feedback {
+    padding-bottom: 0;
+  }
+  .section6_feedback h2 {
+    width: 100%;
+    font-size: 2.12rem;
+  }
+
+  .feedback_text  {
+    font-size: 1.1rem;
+  }
+
+  .user_photo_box {
+    height: 500px;
+  }
+
+  /* section 7  */
+  .section7_subscribe_newsletter {
+    flex-direction: column;
+  }
+
+  .section7_subscribe_newsletter h3 {
+    font-size: 2.12rem;
+    text-align: center;
+  }
+
+  .form_home_page {
+    width: 100%;
+  }
+
+  /* footer */
+ .footer_div_left {
+  width: 100%;
+ }
+
+ .footer_right_side {
+  width: 100%;
+ }
+
+ .footer_right_side h3{
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 1.5em;
+
+ }
+
+ .footer_right_side button {
+  display: block;
+ }
+
+
+ /* about page */
+  .section1_about_page {
+    min-height: 330px;
+  }
+
+  .section1_about_heading h2 {
+    margin: 1em 0;
+  }
+
+  .section1_about_heading div  {
+    width: 30%;
+  }
+
+  /* section 2 */
+  .photo_box_layers {
+    height: 400px;
+  }
+
+  .fig2_absolute {
+    width: 280px;
+    height: 150px;
+  }
+
+  /* section 3 */
+  .section3_about_page {
+    padding-top: 30%;
+    flex-direction: column;
+    row-gap: 2em;
+  }
+
+  /* section 4 */
+
+  .section4_about_page h2 {
+    font-size: 2.125rem;
+    width: 100%;
+  }
+
+  .services_box_parent {
+    flex-direction: column;
+  }
+
+  .services_box_parent div {
+    width: 100%;
+    padding: 8% 0;
+  }
+
+  /* section 6 */
+  .section6_video_about {
+    padding-top: 20%;
+  }
+  .section6_video_about div {
+    width: 100%;
+  }
+
+  .section6_video_about h2  {
+    font-size: 2.12rem;
+  }
+
+  /* section 7 */
+.section7_our_values h2 {
+  font-size: 2.12rem;
+  width: 100%;
+}
+
+.our_values_box_parent {
+  flex-direction: column;
+}
+
+.our_values_child {
+  width: 100%;
+
+}
+
+.icon_title,
+.paper_icon,
+.book_icon,
+.lock_icon,
+.rocket_icon,
+.eye_icon,
+.hour_glass_icon {
+  font-size: 1rem;
+}
+
+.icon_title a {
+  font-size: 1rem;
+}
+
+/* section 8 */
+.section8_company_porfessionals h2 {
+  font-size: 2.12rem;
+}
+.figure_team_professionals {
+  flex-direction: column;
+}
+
+.employess_info_box {
+  width: 100%;
+}
+
+/* section 9  */
+.section9_customers_questions {
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.customers_question_heading {
+  width: 100%;
+}
+
+.section9_customers_questions div h2  {
+  font-size: 2.12rem;
+}
+
+.section9_customers_questions div {
+  width: 100%;
+}
+
+}
