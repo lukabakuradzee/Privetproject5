@@ -1,6 +1,4 @@
-// document.getElementById('send_message_button').addEventListener('click', event => {
-//   event.preventDefault();
-// });
+
 
 
 let mobileMenu = document.querySelector(".menu")
@@ -51,5 +49,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// JavaScript code
+const submitBTN = document.getElementById('send_message_button');
+
+submitBTN.addEventListener('click', event => {
+  event.preventDefault();
+  event.stopImmediatePropagation();
+
+  // Your specific actions related to preventing the default action, if needed
+  // If not, you can omit this part.
+});
 
 
