@@ -18,6 +18,10 @@
     transition: 1s ease;
   }
 
+  ul li a {
+  color: #7a7a7a;
+  }
+
   .show {
     left: 0;
   }
