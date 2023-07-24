@@ -104,7 +104,7 @@
   }
 
   .section4_video_background h2 {
-    font-size: 2.12rem;
+    font-size: 2.1rem;
   }
 
   /* article 2 */
@@ -288,6 +288,7 @@
 
 .our_values_child {
   width: 100%;
+  padding: 8% 4%;
 
 }
 
@@ -334,5 +335,43 @@
 .section9_customers_questions div {
   width: 100%;
 }
+
+
+/* contact page */
+.section1_contact_page {
+  min-height: 330px;
+
+}
+
+/* section 2 */
+.get_in_touch_box h2  {
+  font-size: 2.125rem;
+  margin: 2em 0;
+}
+
+.get_in_touch_child {
+  flex-direction: column;
+}
+
+.get_in_touch_child div h3 {
+  font-size: 0.875rem;
+}
+
+.get_in_touch_child div p {
+  font-size: 0.875rem;
+}
+
+iframe {
+  height: 400px;
+  filter: none;
+}
+
+/* section 4 */
+
+.section4_project_talk h2  {
+  font-size: 2.1rem;
+  text-align:initial;
+}
+
 
 }
