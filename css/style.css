@@ -37,6 +37,8 @@ select:-webkit-autofill:focus {
 }
 
 
+
+
 /* WRAPPER */
 
 .container {
@@ -1408,3 +1410,40 @@ iframe:hover {
   background-color: #141414;
 
 }
+
+
+/* Your CSS styles */
+.section1_slider,
+.section2_home,
+.home_articles,
+.section3_projects_complited,
+.section4_video_background, 
+.article2, 
+.article3, 
+.section5, 
+.section6_feedback, 
+.section7_subscribe_newsletter, 
+.footer1,
+.section1_about_page, 
+.section2_about_page,
+.section3_about_page, 
+.section4_about_page, 
+.section6_video_about, 
+.section7_our_values, 
+.section8_company_porfessionals, 
+.section9_customers_questions,
+.section1_contact_page, 
+.section2_contact, 
+.iframe1, 
+.section4_project_talk
+{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.5s ease;
+}
+
+.show2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
