@@ -72,6 +72,8 @@
 .article2 {
   padding-bottom: 25%;
 }
+
+
 .article2_description h2  {
   font-size: 2.375rem;
 }
@@ -80,6 +82,8 @@
   flex-direction: column;
   row-gap: 15em;
 }
+
+
 
 .figure1 {
   margin-inline: auto;

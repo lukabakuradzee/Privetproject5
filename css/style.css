@@ -64,7 +64,9 @@ header {
   display: flex;
   justify-content: space-between;
   height: 95px;
-  align-items: center;
+  align-items: center;              
+
+
 }
 
 .menu {
@@ -480,9 +482,9 @@ ul li a:hover {
   transition: 0.8s ease;
 }
 
-.card2_photo:hover {
-  filter: none;
-}
+  .card2_photo:hover {
+    filter: none;
+  }
 
 .card_photo3 {
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
@@ -1442,7 +1444,7 @@ iframe:hover {
   transition: opacity 0.8s ease, transform 0.5s ease;
 }
 
-.show2 {
+.load {
   opacity: 1;
   transform: translateY(0);
 }
