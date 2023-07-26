@@ -1,0 +1,101 @@
+@media (max-width: 414px) {
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  .burgermenu,
+  .xmark {
+    font-size: 1.7rem;
+  }
+
+  .section1_company_about h1 {
+    padding-inline: 2%;
+    
+  }
+
+
+  .button_read_more {
+    padding: .8rem 2rem;
+
+  }
+
+  .button_get_started  {
+    padding: 0.8rem 2rem;
+
+  }
+
+  .button_learn_more {
+    padding: 0.8rem 2rem;
+
+  }
+
+  .button_all_projects {
+    padding: .8rem 2rem;
+  }
+   .section4_video_background h2 {
+      padding-inline: 5%;
+   }
+
+   .article2_cards_parent {
+    row-gap: 0;
+   }
+
+   .figure2 {
+    row-gap: 5em;
+   }
+
+
+   /* article2 */
+   .figure1 div > h3 {
+     font-size: 1.31rem;
+   }
+    
+
+   /* about page */
+   .section5_right_side_title h3 {
+    text-align: start;
+   }
+
+   .photo_box_layers {
+     height: 350px;
+   }
+   
+   .fig2_absolute {
+    top: 70%;
+    width: 217px;
+    height: 145px;
+
+   }
+
+   .statistic_info_box p{
+     font-size: 0.93rem;
+   }
+   
+   .section6_video_about div > h2 {
+    width: 80%;
+    margin-inline: auto;
+    /* color: white; */
+   }
+
+   /* contact page */
+   iframe {
+    margin-bottom: 3em;
+   }
+
+   .section4_project_talk h2 {
+    text-align: center;
+    line-height: 1.4;
+   }
+
+
+   .customers_question_heading  h2{
+    width: 90%;
+
+   }
+
+   .customers_question_heading p {
+    font-size: .93rem;
+    margin-bottom: 1em;
+   }
+
+}
